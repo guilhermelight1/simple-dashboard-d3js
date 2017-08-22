@@ -3,6 +3,7 @@
     const width = 800 - margin.left - margin.right;
     const height = 200 - margin.top - margin.bottom;
 
+    // get data and draw charts
     d3.csv('data/2017-monthly-sales.csv', (error, data) => {
         if (error) {
             return console.error(error);
