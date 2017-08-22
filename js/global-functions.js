@@ -3,7 +3,3 @@ function formatSales(d) {
     var num = prefix.scale(d).toFixed();
     return num + prefix.symbol;
 }
-
-function compareNums(a, b) {
-    return a - b;
-}
